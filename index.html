@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="gallery.css">
     <script src="https://use.fontawesome.com/5f02237488.js"></script>
 </head>         
-<body onload="myFunc()">
+<body onload="myFunction()">
     <div id="preloader"></div>
     <section class="header">
         <div class="nav-container">
@@ -17,7 +17,7 @@
             </div>
             <div class="menu">
                 <div class="n-list">
-                    <ul>
+                    <ul id="u-list">
                         <li><a href="#">home</a></li>
                         <li><a href="index.html">images</a></li>
                         <li><a href="reel.html">reels</a></li>
@@ -25,7 +25,8 @@
                     </ul>
                 </div>
                 <div class="toggle">
-                    <i class="fa fa-bars" aria-hidden="true" id="menu-bar" onclick="greet()"></i>
+                    <i class="fa fa-bars" aria-hidden="true" id="menu-bar" onclick="myFunction1()"></i>
+                    <i class="fa fa-times" aria-hidden="true" id="close" onclick="myFunction2()"></i>
                 </div>
             </div>
         </div>
@@ -326,29 +327,10 @@
         </div>
     </section>
     <div class="footer">
-        <div class="f-container">
-            <div class="f-box">
-                <h2>Quick links</h2>
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="index.html">images</a></li>
-                    <li><a href="reel.html">reels</a></li>
-                    <li><a href="#">contact us</a></li>
-                </ul>
-            </div>
-        </div>
         <div class="f-box">
             Created By <a href="#"><span>DEVENDRA B</span></a> | All Rights Reserved
         </div>
     </div>
-    <script>
-        let preloader = document.getElementById('preloader')
-        function myFunc(){
-            preloader.style.display = "none"
-        }
-        function greet(){
-            alert("Please use Quick links given below the page untill next update.")
-        }
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
