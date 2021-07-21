@@ -32,7 +32,7 @@
     display: flex;
     background: var(--background-color);
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     padding: 4px 0;
 }
 .nav-container img{
@@ -279,5 +279,8 @@
     }
     .n-list ul li{
         margin-top: 40px;
+    }
+    .n-list ul li a{
+        border-bottom: 2px solid white;
     }
 }
