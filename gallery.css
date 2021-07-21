@@ -280,7 +280,7 @@
     .n-list ul li{
         margin-top: 40px;
     }
-    .n-list ul li a{
+    .n-list ul li a:hover{
         border-bottom: 2px solid white;
     }
 }
