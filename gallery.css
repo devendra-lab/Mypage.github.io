@@ -27,7 +27,7 @@ body{
     --color: rgba(255,255,255,.7);
     --icon-color: rgba(255,255,255,.6);
     --body-bg-color: rgba(0,0,0,.6);
-    --fa-color: white;
+    --fa-color: rgba(255,255,255,.7);
     --f-bg-color: rgba(0,0,0,.8);
 }
 #dark .fa,#light .fa{
