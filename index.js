@@ -9,6 +9,7 @@ $(document).ready(() => {
     $('#nav').click(() => {
         $('.nav-bar').toggleClass('active')
         $('#nav').toggleClass('fa-times')
+        $('#nav').toggleClass('fa-bars')
     })
     $(window).scroll(() => {
         $('.nav-bar').removeClass('active')
