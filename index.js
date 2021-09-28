@@ -14,5 +14,6 @@ $(document).ready(() => {
     $(window).scroll(() => {
         $('.nav-bar').removeClass('active')
         $('#nav').removeClass('fa-times')
+        $('#nav').toggleClass('fa-bars')
     })
 })
